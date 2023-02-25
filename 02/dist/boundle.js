@@ -1,1 +1,0 @@
-(()=>{"use strict";var e=[{name:"Adam",age:28},{name:"Ania",age:35},{name:"Roman",age:18}],n=function(e){return e.reduce((function(e,n){return e+n.age}),0)};console.log(n(e)),function(e,a){e.innerHTML=n(a)}(document.querySelector("#age"),e)})();
